@@ -1,17 +1,24 @@
-import './App.css'
+import "./App.css";
+import Categories from "./Components/Categories";
+import Footer from "./Components/Footer";
+import Hero from "./Components/Hero";
+import Navbar from "./Components/Navbar";
+import Statistic from "./Components/Statistic";
+import ReferEarn from "./Components/ReferEarn";
+import Team from "./Components/Team";
 
 function App() {
-
   return (
     <>
-      <div className='w-full h-screen bg-gray-800 text-white'>
-        <div className='h-screen flex items-center justify-center text-3xl'>
-      
-          <h2>Helpers Website</h2>
-        </div>
-      </div>
+      <Navbar />
+      <Hero />
+      <Categories />
+      <Statistic />
+      <ReferEarn />
+      <Team />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
