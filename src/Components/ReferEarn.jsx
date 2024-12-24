@@ -6,7 +6,7 @@ function Steps() {
     <section className="text-gray-400 bg-gray-900 body-font">
       <div className="flex flex-col text-center w-full">
         <h1 className="sm:text-5xl text-2xl font-medium title-font mb-8 text-blue-400">
-          Get Life-Time Royality
+          Get Life-Time Royalty
         </h1>
         <h2 className="sm:text-3xl text-2xl font-medium title-font text-white">
           With Our Refer and Earn Program
